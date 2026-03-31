@@ -27,6 +27,9 @@ export default defineConfig(({ mode }) => ({
             },
         },
     },
+    server: {
+        allowedHosts: ['exp.codebridge.ai.kr'],
+    },
     resolve: {
         alias: {
             '@genaitm': path.resolve(__dirname, './src'),
