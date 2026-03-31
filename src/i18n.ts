@@ -18,7 +18,7 @@ i18n.use(detector)
         interpolation: {
             escapeValue: false,
         },
-        lng: 'ko-KR',
+        lng: 'kr-KR',
         fallbackLng: 'en-GB',
         supportedLngs: [
             'de-DE',
