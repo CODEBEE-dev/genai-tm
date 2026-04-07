@@ -39,18 +39,18 @@ export default function Home() {
                         <h1>{t('app.title')}</h1>
                         <h2>{t('app.subtitle')}</h2>
                         <div className={style.buttons}>
-                            <LinkButton
+                            {/* <LinkButton
                                 href="https://gen-ai.fi/en/materials/classifier-unit"
                                 startIcon={<SchoolIcon />}
                             >
                                 {t('app.teachingMaterials')}
-                            </LinkButton>
-                            <LinkButton
+                            </LinkButton> */}
+                            {/* <LinkButton
                                 href="https://github.com/knicos/genai-tm"
                                 startIcon={<GitHubIcon />}
                             >
                                 {t('app.github')}
-                            </LinkButton>
+                            </LinkButton> */}
                         </div>
                     </div>
                 </div>
