@@ -7,9 +7,6 @@ import { LangSelect, Privacy } from '@genai-fi/base';
 import gitInfo from '../../generatedGitInfo.json';
 import { theme } from '@genai-fi/base';
 import { ThemeProvider } from '@mui/material/styles';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import SchoolIcon from '@mui/icons-material/School';
-import LinkButton from './LinkButton';
 import { LANGS } from '@genaitm/components/AppBar/AppBar';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
 
